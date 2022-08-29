@@ -1,0 +1,135 @@
+{
+  "Room": [{
+    "Name": "livingRoom",
+    "Item": [{
+      "Name": "basket",
+      "Image": "basket.png"
+    },
+      {
+        "Name": "laptop",
+        "Image": "laptop.png"
+      }
+    ],
+    "walls": [{
+      "Room": "livingRoom",
+      "Image": "LR-Front.jpg",
+      "Direction": "NORTH"
+    },
+      {
+        "Room": "corridor",
+        "Image": "LR-Right.jpg",
+        "Direction": "EAST"
+      },
+      {
+        "Room": "livingRoom",
+        "Image": "LR-Left.jpg",
+        "Direction": "WEST"
+      },
+      {
+        "Room": "livingRoom",
+        "Image": "LR-Back.jpg",
+        "Direction": "SOUTH"
+      }
+    ]
+  },
+    {
+      "Name": "corridor",
+      "Item": [{
+        "Name": "glasses",
+        "Image": "glasses.png"
+      },
+        {
+          "Name": "hat",
+          "Image": "hat.png"
+        }
+      ],
+      "walls": [{
+        "Room": "kitchen",
+        "Image": "CR-Front.jpg",
+        "Direction": "NORTH"
+      },
+        {
+          "Room": "corridor",
+          "Image": "CR-Right.jpg",
+          "Direction": "EAST"
+        },
+        {
+          "Room": "livingRoom",
+          "Image": "CR-Left.jpg",
+          "Direction": "WEST"
+        },
+        {
+          "Room": "corridor",
+          "Image": "CR-Back.jpg",
+          "Direction": "SOUTH"
+        }
+      ]
+    },
+    {
+      "Name": "kitchen",
+      "Item": [{
+        "Name": "skype",
+        "Image": "skype.png"
+      },
+        {
+          "Name": "pipe",
+          "Image": "pipe.png"
+        }
+      ],
+      "walls": [{
+        "Room": "kitchen",
+        "Image": "KT-Front.jpg",
+        "Direction": "NORTH"
+      },
+        {
+          "Room": "kitchen",
+          "Image": "KT-Right.jpg",
+          "Direction": "EAST"
+        },
+        {
+          "Room": "kitchen",
+          "Image": "KT-Left.jpg",
+          "Direction": "WEST"
+        },
+        {
+          "Room": "corridor",
+          "Image": "KT-Back.jpg",
+          "Direction": "SOUTH"
+        }
+      ]
+    },
+    {
+      "Name": "bedroom",
+      "Item": [{
+        "Name": "camera",
+        "Image": "camera.png"
+      },
+        {
+          "Name": "bow",
+          "Image": "bow.png"
+        }
+      ],
+      "walls": [{
+        "Room": "bedroom",
+        "Image": "BD-Front.jpg",
+        "Direction": "NORTH"
+      },
+        {
+          "Room": "bedroom",
+          "Image": "BD-Right.jpg",
+          "Direction": "EAST"
+        },
+        {
+          "Room": "corridor",
+          "Image": "BD-Left.jpg",
+          "Direction": "WEST"
+        },
+        {
+          "Room": "bedroom",
+          "Image": "BD-Back.jpg",
+          "Direction": "SOUTH"
+        }
+      ]
+    }
+  ]
+}
